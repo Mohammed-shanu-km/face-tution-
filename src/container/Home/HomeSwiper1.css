@@ -1,0 +1,193 @@
+.home-swiper1{
+    /* background-color: rgb(240, 236, 236); */
+    background-color: #f9fbff;
+}
+.popular-courses-text h6{
+    font-size: 26px;
+    line-height: 39.01px;
+    font-weight: 600;
+    color: #00000080;
+}
+.popular-courses-text h1{
+    font-size: 38px;
+    font-weight: 800;
+    color: #000000B2;
+}
+.popular-courses-text span{
+    color: #572DFE;
+}
+.popular-courses-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    /* background-color: rgb(238, 233, 233); */
+}
+
+
+/* <----------swiper-styles------------> */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* background-color: #ebe9f3; */
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.popular-courses-swiper{
+    padding: 0 8rem;
+}
+
+/* <-------------------------------> */
+
+.slide-image-div{
+    padding: 20px;
+}
+.slide-image-title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.slide-image-title p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000000B2;
+}
+.slide-image-title #dollar-icon{
+    color: #000000;
+    font-size: 18px;
+}
+.slide-image-title .price{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.duration-viewbtn-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.duration{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.duration p{
+    font-size: 16px;
+    line-height: 24px;
+    font-size: 900;
+    font-weight: 600;
+    color: #000000;
+}
+.text-start {
+    text-align: start;
+    color: #00000080;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+#clock-icon{
+    color: #00000099;
+    font-size: 24px;
+}
+.duration-viewbtn-div a{
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: #572DFE;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.duration-viewbtn-div a:hover{
+    background-color: #7e5efa;
+}
+.swiper-pagination-bullet{
+    width: 20px !important;
+    height: 4px !important;
+    border-radius: 60px !important;
+    margin: 0 2px !important;
+    transition: 0.5s linear;
+}
+.swiper-pagination-bullet-active{
+    width: 85px !important;
+    height: 4px !important;
+    border-radius: 60px !important;
+} 
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 40px !important;
+    --swiper-theme-color: #572DFE;
+}
+
+
+
+@media (max-width: 640px){
+    .popular-courses-text{
+        padding: 2rem;
+        display: block;
+        text-align: center;
+    }
+    .popular-courses-text h6{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .popular-courses-swiper{
+        padding: 0 1rem;
+    }
+    .popular-courses-text h1{
+        /* font-size: 24px; */
+        font-size: 22px;
+    }
+    .slide-image-title p{
+        font-size: 15px;
+    }
+    .slide-image-div{
+        padding: 20px;
+    }
+    .text-start{
+        font-size: 15px;
+    }
+    .slide-image-title #dollar-icon{
+        font-size: 15px;
+    }
+    .duration p{
+        font-size: 14px;
+    }
+    #clock-icon{
+        font-size: 20px;
+    }
+    .duration-viewbtn-div a{
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+    .swiper-pagination{
+        margin-top: 1rem !important;
+    }
+}
+ 
+
+  
+
+
+
+  

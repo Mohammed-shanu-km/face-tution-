@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.38px;
+    color: #000000B2;
+    transition: all 1s ease;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.navbar input{
+    width: 250px;
+    border: none;
+    background-color: #EDEEEF80;
+    color: #00000066;
+    padding: 10px 25px;
+    padding-right: 50px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.38px;
+}
+.navbar .login{
+    color: #000000B2;
+    padding: 14px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.38px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.navbar .signin{
+    background-color: #572DFE;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.38px;
+}
+.search-and-btn{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.search-input-div{
+    position: relative;
+}
+.search-and-btn #search-icon{
+    position: absolute;
+    margin-top: 10px;
+    right: 15px;
+    font-size: 25px;
+    color: #00000066;
+}
+.search-and-btn #search-icon:hover{
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #7e5efa;
+}
+.login:hover{
+    background-color: rgb(227, 233, 233);
+}
+.navbar img{
+    width: 90px;
+}
+.header{
+    width: 100%;
+}
+.mobile-header #hamburger-icon{
+    display: none;
+}
+.nav-links-div{
+    display: flex;
+    gap: 4rem;
+}
+
+
+@media (max-width: 640px) {
+    .header{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        /* padding: 1rem;  */
+        padding: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+    .nav-links-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        transform: translateY(-100%);
+        transition: all 0.9s ease;
+        gap: 1rem;
+        position: fixed;
+        z-index: 9;
+    }
+    .mobile-menu{
+        /* margin-top: 0 !important; */
+        transform: translateY(0);
+     
+    }
+    .search-and-btn{
+        flex-direction: column;
+    }
+    .navbar-btn-div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mobile-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        z-index: 10;
+        position: fixed;
+        background-color: #FFFFFF;
+    }
+    .mobile-header #hamburger-icon{
+        display: flex;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 40px;
+        color: #FFFFFF;
+    }
+    .search-input-div{
+        display: none;
+    }
+    .navbar .signin{
+        text-align: center;
+        padding: 6px 14px;
+    }
+    .nav-links a{
+        /* color: #FFFFFF; */
+    }
+    .navbar .login{
+        /* color: #FFFFFF; */
+    }
+     
+}
+ 
+ 

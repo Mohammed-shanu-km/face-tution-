@@ -1,0 +1,114 @@
+.home-hero-div{
+    padding: 0 90px;
+}
+.home-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-hero-text{
+    width: 47%;
+}
+.home-hero-text h1{
+    color: #000000B2;
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.home-hero-text span{
+    text-decoration: 3px underline;
+    color: #572DFE;
+}
+.home-hero-text span:hover{
+    cursor: pointer;
+}
+.home-hero-text p{
+    color: #999999;
+    margin-bottom: 65px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.home-hero-text .seeAllCourses{
+    padding: 14px 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    background-color: #572DFE;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.seeAllCourses:hover{
+    background-color: #7e5efa;
+}
+.home-hero-text .getFreeTrial{
+    padding: 14px 24px;
+    text-decoration: none;
+    color: #000000B2;
+    border: 1px solid #0000004D;
+    border-radius: 10px;
+}
+.getFreeTrial:hover{
+    color: rgb(102, 70, 70);
+    background-color: rgb(205, 219, 219);
+    border: none;
+}
+.home-hero-image{
+    width: 53%;
+    overflow: hidden;
+    text-align: right;
+}
+.home-hero-image img{
+    width: 560px;
+
+}
+.home-hero-image #mobilehero-img{
+    display: none;
+}
+
+
+@media (max-width: 640px){
+    .home-hero-div{
+        padding: 0 ;
+    }
+    .home-hero{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    br{
+        display: none;
+    }
+    .home-hero-image{
+        width: 100% ;
+    }
+    .home-hero-image img{
+        display: none;
+    }
+    .home-hero-image #mobilehero-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+    }
+    .home-hero-text{
+        width: 100%;
+        padding: 35px 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .home-hero-text h1{
+        margin-bottom: 0;
+        font-size: 32px;
+    }
+    .home-hero-text p{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .home-hero-text .seeAllCourses{
+        margin-right: 0;
+    }
+     
+}
